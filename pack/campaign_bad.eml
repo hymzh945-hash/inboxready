@@ -1,0 +1,37 @@
+Subject: ACT NOW!!! 100% FREE QUOTE INSIDE
+From: Quotes Team <quotes@example-mailer.com>
+To: procurement@example-buyer.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2010803456023526682=="
+
+--===============2010803456023526682==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><img src=3D'https://example.com/banner.png'><img src=3D'https://e=
+xample.com/badge.png'><p>Dear Sir/Madam,</p><p>ACT IMMEDIATELY. Our LIMITED T=
+IME offer is risk-free and guaranteed. This is not spam. Click here to buy no=
+w and double your margin today.</p><p>See attached for the full price list.</=
+p><p><a href=3D'https://example.com/a'>Read the case study</a> <a href=3D'htt=
+ps://example.com/b'>Our pricing page</a> <a href=3D'https://bit.ly/x1'>CLICK =
+HERE</a> <a href=3D'https://example.com/d'>Customer portal</a> <a href=3D'htt=
+ps://example.com/e'>Partner program</a></p><p>URGENT: last chance, deadline t=
+oday.</p></body></html>
+
+--===============2010803456023526682==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="pricing.zip"
+MIME-Version: 1.0
+
+ZGVtbyBhcmNoaXZl
+
+--===============2010803456023526682==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+MIME-Version: 1.0
+
+ZGVtbyBleGU=
+
+--===============2010803456023526682==--

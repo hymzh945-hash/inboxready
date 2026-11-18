@@ -1,0 +1,17 @@
+LICENSE
+NOTICE
+README.md
+pyproject.toml
+inboxready/__init__.py
+inboxready/audit.py
+inboxready/cli.py
+inboxready/licensing.py
+inboxready/report.py
+inboxready/version.py
+inboxready.egg-info/PKG-INFO
+inboxready.egg-info/SOURCES.txt
+inboxready.egg-info/dependency_links.txt
+inboxready.egg-info/entry_points.txt
+inboxready.egg-info/requires.txt
+inboxready.egg-info/top_level.txt
+tests/test_core.py

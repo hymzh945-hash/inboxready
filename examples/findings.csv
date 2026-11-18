@@ -1,0 +1,24 @@
+severity,check,target,detail
+high,risky_attachment,invoice.pdf.exe,double extension (.exe after a document extension) — reads as malware and gateways strip it
+high,spam_phrase,act now,trigger phrase in the copy: 'act now'
+high,spam_phrase,100% free,trigger phrase in the copy: '100% free'
+high,spam_phrase,risk-free,trigger phrase in the copy: 'risk-free'
+high,spam_phrase,guaranteed,trigger phrase in the copy: 'guaranteed'
+high,spam_phrase,limited time,trigger phrase in the copy: 'limited time'
+high,spam_phrase,click here,trigger phrase in the copy: 'click here'
+high,spam_phrase,buy now,trigger phrase in the copy: 'buy now'
+high,spam_phrase,dear sir/madam,trigger phrase in the copy: 'dear sir/madam'
+high,subject_shouting,subject,subject is in caps: 'ACT NOW!!! 100% FREE QUOTE INSIDE' — a standard spam signal
+medium,html_only,mime,HTML with no text/plain part — some clients and filters penalise it
+medium,image_heavy,body,2 images against 309 characters of text — classic image-only spam shape
+medium,link_flood,links,5 links in one email — 3 or fewer is the practical limit before filters get interested
+medium,link_text_mismatch,Read the case study,text says 'Read the case study' but points at https://example.com/a — rewrite the label or the link
+medium,link_text_mismatch,Our pricing page,text says 'Our pricing page' but points at https://example.com/b — rewrite the label or the link
+medium,link_text_mismatch,Customer portal,text says 'Customer portal' but points at https://example.com/d — rewrite the label or the link
+medium,link_text_mismatch,Partner program,text says 'Partner program' but points at https://example.com/e — rewrite the label or the link
+medium,no_unsubscribe,headers,promotional HTML with no unsubscribe line and no List-Unsubscribe header
+medium,risky_attachment,pricing.zip,archive attachment — many corporate filters strip or quarantine it
+medium,spam_phrase,urgency,6 urgency words in one message (now/today/urgent/last chance)
+medium,subject_punctuation,subject,repeated !!/?? or several emoji in the subject
+low,generic_greeting,dear sir/madam,"generic greeting — it reads as a blast, and filters agree"
+low,reply_to_missing,headers,"no Reply-To header — replies go to the sending alias, not the person"

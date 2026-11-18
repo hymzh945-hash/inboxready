@@ -1,0 +1,5 @@
+InboxReady
+Copyright (c) 2026 InboxReady
+
+No third-party code is bundled. InboxReady is built entirely on the Python standard
+library (email, re, math, argparse) and ships with zero runtime dependencies.
